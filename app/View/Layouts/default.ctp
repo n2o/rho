@@ -31,7 +31,11 @@ $cakeDescription = __d('Christian Meter', 'Renate Horsch');
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('main');
+		#echo $this->Html->css('colorbox');
 		echo $this->Html->css('//fonts.googleapis.com/css?family=Open+Sans');
+
+		// echo $this->Html->script('//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js');
+		// echo $this->Html->script('jquery.colorbox-min.js');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

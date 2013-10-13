@@ -8,20 +8,31 @@
 	  E-Mail: <?php echo $this->Html->link('info@renate-horsch.de', 'mailto:info@renate-horsch.de'); ?><br>
     </p>
 
-	<p>Gesetzliche   Berufsbezeichnung: Heilpraktiker (verliehen in der Bundesrepublik   Deutschland)<br>
-	Zuständige Aufsichtsbehörde: Gesundheitsamt Remscheid, Hastener Strasse 15, 42855 Remscheid<br>
-	Berufsrechtliche Regelungen: Gesetz über die berufsmäßige Ausübung   der Heilkunde ohne ärztliche Bestallung (Heilpraktikergesetz) und Durchführungsverordnung: <br>
-	Nachzulesen im Internet unter:<br>
+	<p>
+	<h4>Gesetzliche Berufsbezeichnung</h4>
+	Heilpraktiker (verliehen in der Bundesrepublik Deutschland)<br>
 	<br>
+	<h4>Zuständige Aufsichtsbehörde</h4>
+	Gesundheitsamt Stadt Remscheid, Hastener Strasse 15, 42855 Remscheid<br>
+	<br>
+	<h4>Berufsrechtliche Regelungen</h4>
+	Gesetz über die berufsmäßige Ausübung der Heilkunde ohne ärztliche Bestallung (Heilpraktikergesetz)<br>
+	<br>
+	<h4>Durchführungsverordnung:</h4>
+	Nachzulesen im Internet unter:<br>
+
+	<div style="padding-left: 1em;">
 	<?php 
 		echo $this->Html->link('http://www.gesetze-im-internet.de/heilprg/index.html', 'http://www.gesetze-im-internet.de/heilprg/index.html')."<br>";
 		echo $this->Html->link('http://www.gesetze-im-internet.de/heilprgdv_1/index.html', 'http://www.gesetze-im-internet.de/heilprgdv_1/index.html')."<br>";
 		echo $this->Html->link('http://freieheilpraktiker.com/Patienteninfo/Heilpraktikergesetz', 'http://freieheilpraktiker.com/Patienteninfo/Heilpraktikergesetz')."<br>";
-	?></p>
+	?>
+	</div>
+	</p>
 
 	<p><!--Berufsverbandsmitgliedschaft   in: Musterverband<br>
 	  Berufsordnung: Nachzulesen im Internet   unter...<br>-->
-	  Heilkundliche Tätigkeit ist von der Umsatzsteuer nach gemäß § 4   Nr.14 UStG befreit.
+	  Heilkundliche Tätigkeit ist von der Umsatzsteuer gemäß § 4   Nr.14 UStG befreit.
     </p>
     <br>
     <h3>Gestaltung der Internetpräsenz</h3>

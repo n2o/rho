@@ -100,24 +100,24 @@
 			echo "<li>".$this->Html->link('Anfahrt', '/pages/drive')."</li>";
 		}
 
-		if ($controller == 'pages' && $this->params['pass'][0] == 'impressum') {
-			echo "<li>".$this->Html->link('Impressum', '/pages/impressum', array('class' => 'active'))."</li>";
-		} else {
-			echo "<li>".$this->Html->link('Impressum', '/pages/impressum')."</li>";
-		}
-
 		if ($controller == 'pages' && $this->params['pass'][0] == 'links') {
 			echo "<li>".$this->Html->link('Links', '/pages/links', array('class' => 'active'))."</li>";
 		} else {
 			echo "<li>".$this->Html->link('Links', '/pages/links')."</li>";
 		}
+
+		if ($controller == 'pages' && $this->params['pass'][0] == 'impressum') {
+			echo "<li>".$this->Html->link('Impressum', '/pages/impressum', array('class' => 'active'))."</li>";
+		} else {
+			echo "<li>".$this->Html->link('Impressum', '/pages/impressum')."</li>";
+		}
 	?>
 	</ul>
 
-	<figure>
+	<div class="navImage">
 		<?php 
 			echo $this->Html->image('logo_160.png', array('alt' => 'logo', 'width' => '158px'));
 		?>
-		<figcaption>Heilpraktikerin für Kinder und Erwachsene</figcaption>
-	</figure>
+		Heilpraktikerin für Kinder und Erwachsene
+	</div>
 </nav>
