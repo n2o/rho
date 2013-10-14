@@ -1,21 +1,12 @@
 <article>
 	<h1>Biografie</h1>
 
-	<figure class="right">
-		<?php 
-			echo $this->Html->image('portrait001_thumb.jpg', array('alt' => 'portrait', 'style' => ''));
-		?>
-		<figcaption>Porträt von mir</figcaption>
-	</figure>
-
 	<p>Geboren am 29.01.1950, verheiratet, 1 Sohn<br>
 	Schulabschluss: mittlere Reife, Lehre als Rechtsanwalts- und Notargehilfin</p>
 	<br>
 	<p>Aufgrund eines Nahtoderlebnisses 1986 totale Umorientierung, sowohl beruflich als auch privat.</p>
 	<br>
-	<br><br><br><br>
 
-	<h1>Lebenslauf</h1>
 	<table>
 		<tr>
 			<td width="100px">1988 - 1991</td>

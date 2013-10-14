@@ -11,7 +11,7 @@
 		<?php echo "<li>".$this->Html->link('Impfkritik', 'http://impfkritik.de/', array('target' => '_blank'))."</li>"; ?>
 		<?php echo "<li>".$this->Html->link('Schutzverband für Impfgeschädigte e.V.', 'http://impfschutzverband.de/', array('target' => '_blank'))."</li>"; ?>
 		<?php echo "<li>".$this->Html->link('Freie Heilpraktiker e.V.', 'http://www.freieheilpraktiker.com/', array('target' => '_blank'))."</li>"; ?>
-		<?php echo "<li>".$this->Html->link('Robert Betz - Transformation', 'http://robert-betz.com/', array('target' => '_blank'))."</li>"; ?>
+		<?php echo "<li>".$this->Html->link('Transformation', 'http://robert-betz.com/', array('target' => '_blank'))."</li>"; ?>
 		<?php echo "<li>".$this->Html->link('The Work of Byron Katie', 'http://thework.com/deutsch/', array('target' => '_blank'))."</li>"; ?>
 	</ul>
 	<p>Für die entsprechenden Inhalte wird keine Haftung übernommen.</p>

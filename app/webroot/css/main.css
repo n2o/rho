@@ -147,9 +147,16 @@ cols    1     2      3      4      5      6      7      8      9      10     11 
 px      68    160    252    344    436    528    620    712    804    896    988    1080    */
 
 body {
-	width: 1080px;
-	padding: 48px 0 48px 48px;
-	background: url('img/bg.jpg');
+	width: auto;
+	padding: 1em;
+	background: #fdd7c4;
+	/*background: url('img/bg.jpg');*/
+}
+
+#container {
+	min-height: 800px;
+	border: 1px solid #ccc;
+	background: #fff;
 }
 
 header {
@@ -158,16 +165,17 @@ header {
 	padding: 1em;
 	background: url('img/header.png');
 
-	box-shadow: 3px 2px 5px #aaa;
+	/*box-shadow: 3px 2px 5px #aaa;
 	-webkit-box-shadow: 3px 2px 5px #aaa;
-	-moz-box-shadow: 3px 2px 5px #aaa;
+	-moz-box-shadow: 3px 2px 5px #aaa;*/
 }
 
 article	{
-	background: #fff;
+	background: #fafafa;
 	margin-bottom: 1em;
 	overflow: hidden;
-	padding: 20px;
+	padding: 1em;
+	margin: 1em;
 
 	box-shadow: 3px 2px 5px #aaa;
 	-webkit-box-shadow: 3px 2px 5px #aaa;
@@ -185,6 +193,7 @@ a {
 nav {
 	width: 160px;
 	padding-right: 24px;
+	margin: 0 1em;
 	float: left;
 }
 
@@ -192,17 +201,22 @@ nav ul {
 	list-style-type: none; 
 }
 
+nav hr {
+	color: #c2352e;
+	background-color: #c2352e;
+	height: 1px;
+}
+
 nav li a {
 	display: block; 
 	text-align: center;
-	margin-bottom: 2px;
-	height: 30px; 
-	line-height: 30px; 
+	height: 35px; 
+	line-height: 35px; 
 	color: #000;
 	text-decoration: none; 
 	font-size: 100%; 
-	border: 1px solid #ccc;
-	background:  #fff;
+	/*border: 1px solid #ccc;*/
+	background: #fff;
 	-o-transition:color .2s ease-out, background .2s ease-in;
 	-ms-transition:color .2s ease-out, background .2s ease-in;
 	-moz-transition:color .2s ease-out, background .2s ease-in;
@@ -213,14 +227,14 @@ nav li a {
 nav ul ul li a {
 	display: block; 
 	text-align: center;
-	margin-bottom: 2px;
-	height: 30px; 
-	line-height: 30px;
+	/*margin: 0 -1em 0 1em;*/
+	height: 35px; 
+	line-height: 35px;
 	color: #000;
 	text-decoration: none; 
 	font-size: 80%; 
-	border: 1px solid #ccc;
-	background:  #f7f7f7;
+	/*border: 1px solid #ccc;*/
+	background: #fdd7c4;
 	-o-transition:color .2s ease-out, background .2s ease-in;
 	-ms-transition:color .2s ease-out, background .2s ease-in;
 	-moz-transition:color .2s ease-out, background .2s ease-in;
@@ -229,7 +243,7 @@ nav ul ul li a {
 }
 
 nav li a:hover {
-	background: #f7f7f7;
+	background: #fdd7c4;
 }
 
 nav ul ul li a:hover {
@@ -239,17 +253,17 @@ nav ul ul li a:hover {
 nav .active {
 	color: #c2352e;
 	text-decoration: underline;
+	background: #fff;
 }
 
 .navImage {
 	margin: 1em 0;
 	background: #fff;
-	border: 1px solid #ccc;
 	font-family: "Cataneo";
 	display: block; 
 	text-align: center;
 	color: #c2352e;
-	margin-top: 0.25em;
+	margin-top: 1em;
 }
 
 table td {
@@ -266,6 +280,7 @@ figure.right {
 	margin-left: 1em;
 	margin-bottom: 1em;
 	padding: 0.5em;
+	background: #fff;
 }
 
 figure.left {
@@ -277,6 +292,7 @@ figure.left {
 	margin-right: 1em;
 	margin-bottom: 1em;
 	padding: 0.5em;
+	background: #fff;
 }
 
 figure img {
@@ -304,8 +320,8 @@ px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 961px) {
 	
 	body {
-		width: 712px;
-		padding: 48px 28px 60px;
+		/*width: 712px;
+		padding: 48px 28px 60px;*/
 	}
 
 	figure.right {
@@ -329,8 +345,8 @@ px      68    160    252    */
 @media only screen and (max-width: 767px) {
 	
 	body {
-		width: 252px;
-		padding: 48px 34px 60px;
+		/*width: 252px;
+		padding: 48px 34px 60px;*/
 	}
 
 	figure.left {
@@ -338,6 +354,8 @@ px      68    160    252    */
 	}
 	figure.right {
 		width: 200px;
+		float:left;
+		margin-left: 0;
 	}
 
 	figure img {
@@ -359,8 +377,8 @@ px      68    160    252    344    436    */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
 	body {
-		width: 436px;
-		padding: 36px 22px 48px;
+		/*width: 436px;
+		padding: 36px 22px 48px;*/
 	}
 	
 }
