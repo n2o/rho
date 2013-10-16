@@ -47,7 +47,7 @@ article	{
 	text-align: justify;
 }
 
-article h1 {
+h1 {
 	padding-bottom: 0.75em;
 	color: #c2352e;
 }
@@ -62,10 +62,12 @@ header h2 {
 }
 
 h3 {
+	color: #c2352e;
 	padding-bottom: 0.5em;
 }
 
 h4 {
+	color: #c2352e;
 	padding-bottom: 0.5em;
 }
 
@@ -81,8 +83,8 @@ blockquote {
 	line-height: 1.45;
 	position: relative;
 	color: #383838;
-	background: #f7f7f7;
-	border: 1px solid #eee;
+	/*background: #f7f7f7;*/
+	/*border: 1px solid #eee;*/
 }
 
 blockquote:before {
@@ -149,7 +151,7 @@ px      68    160    252    344    436    528    620    712    804    896    988
 body {
 	width: auto;
 	padding: 1em;
-	background: #fdd7c4;
+	background: #fef5d8;
 	/*background: url('img/bg.jpg');*/
 }
 
@@ -193,7 +195,7 @@ a {
 nav {
 	width: 160px;
 	padding-right: 24px;
-	margin: 0 1em;
+	margin: 0 0 0 1em;
 	float: left;
 }
 
@@ -234,7 +236,7 @@ nav ul ul li a {
 	text-decoration: none; 
 	font-size: 80%; 
 	/*border: 1px solid #ccc;*/
-	background: #fdd7c4;
+	background: #fef5d8;
 	-o-transition:color .2s ease-out, background .2s ease-in;
 	-ms-transition:color .2s ease-out, background .2s ease-in;
 	-moz-transition:color .2s ease-out, background .2s ease-in;
@@ -243,7 +245,7 @@ nav ul ul li a {
 }
 
 nav li a:hover {
-	background: #fdd7c4;
+	background: #fef5d8;
 }
 
 nav ul ul li a:hover {
@@ -324,6 +326,10 @@ px      68    160    252    344    436    528    620    712    */
 		padding: 48px 28px 60px;*/
 	}
 
+	header h2 {
+		font-size: 120%;
+	}
+
 	figure.right {
 		float:left;
 		margin-left: 0;
@@ -362,6 +368,9 @@ px      68    160    252    */
 		width: 200px;
 	}
 	
+	header h2 {
+		font-size: 100%;
+	}
 }
 
 

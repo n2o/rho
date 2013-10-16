@@ -56,7 +56,7 @@
 		echo "<hr>";
 
 		if ($controller == "practice") {
-			echo "<li>".$this->Html->link('Praxis', array('controller' => 'practice', 'action' => 'pics'), array('class' => 'active'))."</li>";
+			echo "<li>".$this->Html->link('Praxis', array('controller' => 'practice', 'action' => 'index'), array('class' => 'active'))."</li>";
 			echo "<hr>";
 			echo "<ul>";
 
@@ -96,7 +96,7 @@
 
 			echo "</ul>";
 		} else {
-			echo "<li>".$this->Html->link('Praxis', array('controller' => 'practice', 'action' => 'pics'))."</li>";
+			echo "<li>".$this->Html->link('Praxis', array('controller' => 'practice', 'action' => 'index'))."</li>";
 		}
 		echo "<hr>";
 

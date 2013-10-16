@@ -45,8 +45,8 @@ $cakeDescription = __d('Christian Meter', 'Renate Horsch');
 <body>
 	<div id="container">
 		<header>
-			<div align="left"><h1><?php echo $cakeDescription; ?></h1></div>
-			<div align="right"><h2>Praxis für klassische Homöopathie</h2></div>
+			<div align="left"><h1 stlye="margin-bottom: 0;"><?php echo $cakeDescription; ?></h1></div>
+			<div align="right"><h2>Praxis für Klassische Homöopathie, Gesprächstherapie, medizinische Heilhypnose</h2></div>
 		</header>
 		<?php 
 			include("nav.ctp");
