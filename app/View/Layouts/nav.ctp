@@ -19,7 +19,6 @@
 
 		if ($controller == "therapies") {
 			echo "<li>".$this->Html->link('Heilverfahren', array('controller' => 'therapies', 'action' => 'classic'), array('class' => 'active'))."</li>";
-			echo "<hr>";
 			echo "<ul>";
 
 			if ($this->action == 'classic') {
@@ -57,7 +56,6 @@
 
 		if ($controller == "practice") {
 			echo "<li>".$this->Html->link('Praxis', array('controller' => 'practice', 'action' => 'index'), array('class' => 'active'))."</li>";
-			echo "<hr>";
 			echo "<ul>";
 
 			if ($this->action == 'pics') {

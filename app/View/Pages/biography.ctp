@@ -1,6 +1,12 @@
 <article>
 	<h1>Biografie</h1>
 
+	<figure class="right" id="bio">
+		<?php 
+			echo $this->Html->image('portrait001_thumb.jpg');
+		?>
+	</figure>
+
 	<p>Geboren am 29.01.1950, verheiratet, 1 Sohn<br>
 	Schulabschluss: mittlere Reife, Lehre als Rechtsanwalts- und Notargehilfin</p>
 	<br>
@@ -11,7 +17,7 @@
 		<tr>
 			<td width="100px">1988 - 1991</td>
 			<td width="10px"></td>
-			<td>Ausbildung IAT-Schule Düsseldorf als Psychotherapeutin Schwerpunkt Gesprächstherapie nach Rogers</td>
+			<td>Ausbildung IAT-Schule Düsseldorf - Psychotherapeutin -</td>
 		</tr>
 		<tr>
 			<td>1991 - 1992</td>

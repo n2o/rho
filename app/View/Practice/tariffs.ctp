@@ -13,9 +13,4 @@
 	Mindestsatz 15,40 € - Höchstsatz 41,-- €</p>
 
 	<p>Ich weise ausdrücklich darauf hin, dass eine gründliche und gewissenhafte Anamnese eine wichtige Grundlage für die folgende Behandlung ist und der Zeitraum von 30 Min. nicht ausreicht. Die dem tatsächlichen Zeitaufwand entsprechenden Kosten müssen daher vom Patienten getragen werden.</p>
-	<br>
-	<br>
-	<br>
-	Remscheid, den 1. Oktober 2013
-
 </article>

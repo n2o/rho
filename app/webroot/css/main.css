@@ -35,6 +35,7 @@ a img {border: 0;}
 	src: local("Cataneo BT"), url('//renate-horsch.de/heilpraktikerin/fonts/Cataneo.woff') format("woff"), url('//renate-horsch.de/heilpraktikerin/fonts/Cataneo.ttf') format("truetype");
 }
 .cataneo {
+	color: #c2352e;
 	font-family: "Cataneo";
 }
 
@@ -45,6 +46,7 @@ body {
 
 article	{
 	text-align: justify;
+	line-height: 1.45;
 }
 
 h1 {
@@ -59,6 +61,7 @@ header h1 {
 
 header h2 {
 	font-family: "Cataneo";
+	color: #c2352e;
 }
 
 h3 {
@@ -79,15 +82,16 @@ blockquote {
 	font-style: italic;
 	text-align: justify;
 	margin: 0.25em 0;
-	padding: 1em 1em 1em 50px;
+	padding: 1em;
 	line-height: 1.45;
 	position: relative;
+	width: 90%;
 	color: #383838;
-	/*background: #f7f7f7;*/
-	/*border: 1px solid #eee;*/
+	background: #f7f7f7;
+	border: 1px solid #eee;
 }
 
-blockquote:before {
+/*blockquote:before {
 	font-family: Georgia, serif;
 	display: block;
 	content: "\201C";
@@ -96,7 +100,7 @@ blockquote:before {
 	left: 0px;
 	top: -20px;
 	color: #7a7a7a;
-}
+}*/
 
 blockquote cite {
 	color: #999999;
@@ -176,8 +180,8 @@ article	{
 	background: #fafafa;
 	margin-bottom: 1em;
 	overflow: hidden;
-	padding: 1em;
 	margin: 1em;
+	padding: 1.5em 1em 1em 1.5em;
 
 	box-shadow: 3px 2px 5px #aaa;
 	-webkit-box-shadow: 3px 2px 5px #aaa;
@@ -214,7 +218,7 @@ nav li a {
 	text-align: center;
 	height: 35px; 
 	line-height: 35px; 
-	color: #000;
+	color: #c2352e;
 	text-decoration: none; 
 	font-size: 100%; 
 	/*border: 1px solid #ccc;*/
@@ -236,7 +240,7 @@ nav ul ul li a {
 	text-decoration: none; 
 	font-size: 80%; 
 	/*border: 1px solid #ccc;*/
-	background: #fef5d8;
+	background: #fff;
 	-o-transition:color .2s ease-out, background .2s ease-in;
 	-ms-transition:color .2s ease-out, background .2s ease-in;
 	-moz-transition:color .2s ease-out, background .2s ease-in;
@@ -249,7 +253,7 @@ nav li a:hover {
 }
 
 nav ul ul li a:hover {
-	background: #fff;
+	background: #fef5d8;
 }
 
 nav .active {
@@ -269,16 +273,45 @@ nav .active {
 }
 
 table td {
+	vertical-align: top;
 	padding-bottom: 1.5em;
 }
 
 /* Create bordered images with captions for articles */
+figure.bigRight {
+	display: block;
+	vertical-align: top;
+	float: right;
+	border: 1px solid #cccccc;
+	width: 500px;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	background: #fff;
+}
+
+figure.bigLeft {
+	display: block;
+	vertical-align: top;
+	float: left;
+	border: 1px solid #cccccc;
+	width: 500px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	background: #fff;
+}
+
+figure img {
+	width: 100%;
+}
+
 figure.right {
 	display: block;
 	vertical-align: top;
 	float: right;
 	border: 1px solid #cccccc;
-	width: 300px;
+	width: 250px;
 	margin-left: 1em;
 	margin-bottom: 1em;
 	padding: 0.5em;
@@ -290,15 +323,15 @@ figure.left {
 	vertical-align: top;
 	float: left;
 	border: 1px solid #cccccc;
-	width: 300px;
+	width: 250px;
 	margin-right: 1em;
 	margin-bottom: 1em;
 	padding: 0.5em;
 	background: #fff;
 }
 
-figure img {
-	width: 300px;
+#bio {
+	width: 200px;
 }
 
 figure figcaption {

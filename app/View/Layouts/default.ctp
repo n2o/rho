@@ -27,6 +27,16 @@ $cakeDescription = __d('Christian Meter', 'Renate Horsch');
 		<?php echo $cakeDescription ?>:
 		<?php echo $title_for_layout; ?>
 	</title>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-44992560-1', 'renate-horsch.de');
+		ga('send', 'pageview');
+	</script>
+	
 	<?php
 		echo $this->Html->meta('icon');
 
@@ -34,8 +44,7 @@ $cakeDescription = __d('Christian Meter', 'Renate Horsch');
 		#echo $this->Html->css('colorbox');
 		echo $this->Html->css('//fonts.googleapis.com/css?family=Open+Sans');
 
-		// echo $this->Html->script('//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js');
-		// echo $this->Html->script('jquery.colorbox-min.js');
+		echo $this->Html->script('modernizr.js');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

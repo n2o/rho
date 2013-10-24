@@ -17,6 +17,7 @@
 	von Kindern sowie Lebensberatung im Allgemeinen.</p>
 
 	<p>
-		Weitere Informationen: <?php echo $this->Html->link('Die Grundhaltungen der Personenkonzentrierten Gesprächstherapie', array('action' => 'psychotherapy_rogers')); ?>
+		<strong>Weitere Informationen: <?php echo $this->Html->link('Die Grundhaltungen der Personenkonzentrierten Gesprächstherapie', array('action' => 'psychotherapy_rogers')); ?>
+		</strong>
 	</p>
 </article>
