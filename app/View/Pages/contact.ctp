@@ -13,5 +13,6 @@
 	<h3>Telefax</h3>
 	<p>
 		02191 / 882198
-	</p>	
+	</p>
+	<a href="files/contactform/contact.php" target="_blank">bombe!</a>
 </article>

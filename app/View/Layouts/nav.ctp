@@ -54,47 +54,38 @@
 		}
 		echo "<hr>";
 
-		if ($controller == "practice") {
-			echo "<li>".$this->Html->link('Praxis', array('controller' => 'practice', 'action' => 'index'), array('class' => 'active'))."</li>";
-			echo "<ul>";
-
-			if ($this->action == 'pics') {
-				echo "<li>".$this->Html->link('Bilder', array('action' => 'pics'), array('class' => 'active'))."</li>";
-			} else {
-				echo "<li>".$this->Html->link('Bilder', array('action' => 'pics'))."</li>";
-			}
-			echo "<hr>";
-
-			if ($this->action == 'consultation') {
-				echo "<li>".$this->Html->link('Sprechzeiten', array('action' => 'consultation'), array('class' => 'active'))."</li>";
-			} else {
-				echo "<li>".$this->Html->link('Sprechzeiten', array('action' => 'consultation'))."</li>";
-			}
-			echo "<hr>";
-
-			if ($this->action == 'treatment') {
-				echo "<li>".$this->Html->link('Behandlung', array('action' => 'treatment'), array('class' => 'active'))."</li>";
-			} else {
-				echo "<li>".$this->Html->link('Behandlung', array('action' => 'treatment'))."</li>";
-			}
-			echo "<hr>";
-
-			if ($this->action == 'costs') {
-				echo "<li>".$this->Html->link('Kosten', array('action' => 'costs'), array('class' => 'active'))."</li>";
-			} else {
-				echo "<li>".$this->Html->link('Kosten', array('action' => 'costs'))."</li>";
-			}
-			echo "<hr>";
-
-			if ($this->action == 'tariffs') {
-				echo "<li>".$this->Html->link('Gebührenordnung', array('action' => 'tariffs'), array('class' => 'active'))."</li>";
-			} else {
-				echo "<li>".$this->Html->link('Gebührenordnung', array('action' => 'tariffs'))."</li>";
-			}
-
-			echo "</ul>";
+		if ($this->action == 'pics') {
+			echo "<li>".$this->Html->link('Bilder', array('controller' => 'practice', 'action' => 'pics'), array('class' => 'active'))."</li>";
 		} else {
-			echo "<li>".$this->Html->link('Praxis', array('controller' => 'practice', 'action' => 'index'))."</li>";
+			echo "<li>".$this->Html->link('Bilder', array('controller' => 'practice', 'action' => 'pics'))."</li>";
+		}
+		echo "<hr>";
+
+		if ($this->action == 'consultation') {
+			echo "<li>".$this->Html->link('Sprechzeiten', array('controller' => 'practice', 'action' => 'consultation'), array('class' => 'active'))."</li>";
+		} else {
+			echo "<li>".$this->Html->link('Sprechzeiten', array('controller' => 'practice', 'action' => 'consultation'))."</li>";
+		}
+		echo "<hr>";
+
+		if ($this->action == 'treatment') {
+			echo "<li>".$this->Html->link('Behandlung', array('controller' => 'practice', 'action' => 'treatment'), array('class' => 'active'))."</li>";
+		} else {
+			echo "<li>".$this->Html->link('Behandlung', array('controller' => 'practice', 'action' => 'treatment'))."</li>";
+		}
+		echo "<hr>";
+
+		if ($this->action == 'costs') {
+			echo "<li>".$this->Html->link('Kosten', array('controller' => 'practice', 'action' => 'costs'), array('class' => 'active'))."</li>";
+		} else {
+			echo "<li>".$this->Html->link('Kosten', array('controller' => 'practice', 'action' => 'costs'))."</li>";
+		}
+		echo "<hr>";
+
+		if ($this->action == 'tariffs') {
+			echo "<li>".$this->Html->link('Gebührenordnung', array('controller' => 'practice', 'action' => 'tariffs'), array('class' => 'active'))."</li>";
+		} else {
+			echo "<li>".$this->Html->link('Gebührenordnung', array('controller' => 'practice', 'action' => 'tariffs'))."</li>";
 		}
 		echo "<hr>";
 
