@@ -10,7 +10,7 @@
 					<div align="right"><cite> § 1, 2 Organon der Heilkunst, Samuel Hahnemann</cite></div>
 				</blockquote>
 
-				<p style="margin-top: 2em;">
+				<p style="margin: 2em 1em 0 0;">
 					Nähere Informationen zu der Person Samuel Hahnemann und sein Leben finden Sie unter 
 					<?php echo $this->Html->link('http://dgkh-homoeopathie.de/Homoeopathie/homoopathie.html', 'http://dgkh-homoeopathie.de/Homoeopathie/homoopathie.html'); ?>.
 				</p>

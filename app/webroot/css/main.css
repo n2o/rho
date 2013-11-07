@@ -337,6 +337,8 @@ figure.left {
 
 #bio {
 	width: 200px;
+	float: right;
+	margin-left: 1em;
 }
 
 figure figcaption {
@@ -403,6 +405,11 @@ px      68    160    252    344    436    528    620    712    */
 		margin-left: 0;
 	}
 
+	#bio {
+		float: right;
+		margin-left: 1em;
+	}
+
 	img.cornerRight {
 		width: 200px;
 	}
@@ -452,6 +459,11 @@ px      68    160    252    */
 		width: 200px;
 		float:left;
 		margin-left: 0;
+	}
+
+	#bio {
+		float: right;
+		margin-left: 1em;
 	}
 
 	figure img {
