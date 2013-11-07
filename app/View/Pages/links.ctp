@@ -6,7 +6,7 @@
 	<ul>
 		<?php echo "<li>".$this->Html->link('http://www.hahnemannia.de/', 'http://www.hahnemannia.de/', array('target' => '_blank'))."</li>"; ?>
 		<?php echo "<li>".$this->Html->link('http://dgkh-homoeopathie.de/', 'http://dgkh-homoeopathie.de/', array('target' => '_blank'))."</li>"; ?>
-		<?php echo "<li>".$this->Html->link('http://vkhd.de/', 'http://vkhd.de/', array('target' => '_blank'))."</li>"; ?>
+		<?php echo "<li>".$this->Html->link('http://bkhd.de/', 'http://bkhd.de/', array('target' => '_blank'))."</li>"; ?>
 		<?php echo "<li>".$this->Html->link('http://www.carstens-stiftung.de/', 'http://www.carstens-stiftung.de/', array('target' => '_blank'))."</li>"; ?>
 		<?php echo "<li>".$this->Html->link('http://impf-report.de/', 'http://impf-report.de/', array('target' => '_blank'))."</li>"; ?>
 		<?php echo "<li>".$this->Html->link('http://impfkritik.de/', 'http://impfkritik.de/', array('target' => '_blank'))."</li>"; ?>
