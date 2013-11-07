@@ -13,7 +13,7 @@
 	</p>
 
 	<p>
-		<font color="#555555">Viele Eltern haben schon Heilerfolge durch die Homöopathie bei Erkrankungen auf der körperlichen Ebene, z.B. Halsschmerzen erlebt. Weniger bekannt ist, dass die Homöopathie auch gerade bei Problemen auf psychischer und geistiger Ebene sehr gut helfen kann. So z.B. u.A.:</font>
+		<font color="#555555">Viele Eltern haben schon Heilerfolge durch die Homöopathie bei Erkrankungen auf der körperlichen Ebene, z.B. Halsschmerzen erlebt. Weniger bekannt ist, dass die Homöopathie auch gerade bei Problemen auf psychischer und geistiger Ebene sehr gut helfen kann. So z.B. u.a.:</font>
 	</p>
 
 	<p style="margin-left: 2em;">

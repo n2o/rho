@@ -131,6 +131,11 @@
 		<?php 
 			echo $this->Html->image('logo_160.png', array('alt' => 'logo', 'width' => '158px'));
 		?>
-		Heilpraktikerin für Kinder und Erwachsene
+		Heilpraktikerin für Kinder und Erwachsene<br>
+		<br>
+		Sperberstr. 24<br>
+		42859 Remscheid<br>
+		02191 882197<br>
+		<?php echo $this->Html->link('info@renate-horsch.de', 'mailto:info@renate-horsch.de') ?>
 	</div>
 </nav>

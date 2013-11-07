@@ -6,23 +6,10 @@
 		echo $this->Html->image('sun_clear.png', array('class' => 'cornerRight'));
 	?>
 
-	<div width="100%">
-		<div id="left">
-			<?php 
-				echo $this->Html->image('paper_first_page.png', array('class' => 'paperFirstPage'));
-			?>
-		</div>
-
-		<div id="right" style="margin-top: 3em;">
-			<h3 style="margin-top: 1em;">Anschrift:</h3>
-			<p>
-				Heilpraktikerin Renate Horsch<br>
-				Sperberstr. 24<br>
-				42859 Remscheid<br>
-				Telefon: 02191 / 882197<br>
-				E-Mail: <?php echo $this->Html->link('info@renate-horsch.de', 'mailto:info@renate-horsch.de'); ?>
-			</p>
-		</div>
+	<div id="left" style="margin-top: 1em;">
+		<?php 
+			echo $this->Html->image('paper_first_page_simple.png', array('class' => 'paperFirstPage'));
+		?>
 	</div>
 
 	<?php 
