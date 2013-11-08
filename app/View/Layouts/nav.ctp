@@ -75,17 +75,10 @@
 		}
 		echo "<hr>";
 
-		if ($this->action == 'costs') {
+		if ($this->action == 'costs'||$this->action == 'tariffs') {
 			echo "<li>".$this->Html->link('Kosten', array('controller' => 'practice', 'action' => 'costs'), array('class' => 'active'))."</li>";
 		} else {
 			echo "<li>".$this->Html->link('Kosten', array('controller' => 'practice', 'action' => 'costs'))."</li>";
-		}
-		echo "<hr>";
-
-		if ($this->action == 'tariffs') {
-			echo "<li>".$this->Html->link('Gebührenordnung', array('controller' => 'practice', 'action' => 'tariffs'), array('class' => 'active'))."</li>";
-		} else {
-			echo "<li>".$this->Html->link('Gebührenordnung', array('controller' => 'practice', 'action' => 'tariffs'))."</li>";
 		}
 		echo "<hr>";
 

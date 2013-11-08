@@ -262,9 +262,9 @@ nav ul ul li a:hover {
 }
 
 nav .active {
+	background: #fafafa;
 	color: #c2352e;
 	text-decoration: underline;
-	background: #fff;
 }
 
 .navImage {

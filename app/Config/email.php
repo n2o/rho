@@ -40,7 +40,7 @@ class EmailConfig {
 	public $contactform = array(
 		'transport' => 'Mail',
 		'from' => array('christian.meter@hhu.de' => 'example.com | contact form'),
-		#'bcc' => 'yourmail@example.com',
+		'bcc' => 'cmeter@gmail.com',
 		'charset' => 'utf-8',
 		'headerCharset' => 'utf-8',
 	);

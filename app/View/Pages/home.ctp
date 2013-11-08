@@ -6,7 +6,7 @@
 		echo $this->Html->image('sun_clear.png', array('class' => 'cornerRight'));
 	?>
 
-	<div id="left" style="margin-top: 1em;">
+	<div id="left" style="margin-top: 3em; margin-left: 1em;">
 		<?php 
 			echo $this->Html->image('paper_first_page_simple.png', array('class' => 'paperFirstPage'));
 		?>

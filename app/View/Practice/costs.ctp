@@ -29,11 +29,18 @@
 	<p>Je jünger der Versicherungsnehmer, je geringer sind die monatlichen Beiträge. 
 	Daher lohnt es sich besonders bei Kindern und jungen Erwachsenen, eine solche Versicherung abzuschließen.</p>
 	<br>
-	<h3>Sie sind privat versichert?</h3>
-	<p>Diese übernehmen die Kosten von Heilpraktiker-Behandlungen, jedoch in unterschiedlicher Höhe. Maßgebend ist der entsprechende Tarif und deren Bedingungen.<br>
-	Bei einer Abrechnung nach der Gebührenordnung für Heilpraktiker kann besonders bei der Erstanamnese eine Selbstbeteiligung anfallen (anliegende Information).</p>
 
-	<p>Behördenbedienstete und Beamte erhalten Beihilfe zu Heilpraktiker-Leistungen.<br>
-	Je nach ergänzender privater Versicherung werden alle Kosten ersetzt. 
-	Postbeamte haben einen Sondertarif, der einen etwas kleineren Anteil als die Beihilfe ersetzt.</p>
+	<h3>Sie sind privat versichert?</h3>
+	<p>
+		Diese übernehmen die Kosten von Heilpraktiker-Behandlungen, jedoch in unterschiedlicher Höhe. Maßgebend ist der entsprechende Tarif und deren Bedingungen.
+		<br>
+		Bei einer Abrechnung nach der <?php echo $this->Html->link('Gebührenordnung für Heilpraktiker', array('action' => 'tariffs')); ?> kann besonders bei der Erstanamnese eine Selbstbeteiligung anfallen.
+	</p>
+
+	<p>
+		Behördenbedienstete und Beamte erhalten Beihilfe zu Heilpraktiker-Leistungen.
+		<br>
+		Je nach ergänzender privater Versicherung werden alle Kosten ersetzt. 
+		Postbeamte haben einen Sondertarif, der einen etwas kleineren Anteil als die Beihilfe ersetzt.
+	</p>
 </article>
